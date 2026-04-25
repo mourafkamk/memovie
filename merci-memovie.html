@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MémoVie — Votre accès</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5e6d3 0%, #e8d5c4 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.box {
+  background: white;
+  border-radius: 24px;
+  padding: 48px 40px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(139,111,71,0.15);
+}
+.emoji { font-size: 64px; margin-bottom: 16px; display: block; }
+.badge {
+  display: inline-block; padding: 5px 14px; border-radius: 20px;
+  background: rgba(201,169,97,0.15); border: 1px solid rgba(201,169,97,0.4);
+  color: #b8956a; font-size: 12px; font-weight: 600;
+  letter-spacing: 2px; text-transform: uppercase; margin-bottom: 16px;
+}
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 32px; font-weight: 400; font-style: italic;
+  color: #8b6f47; margin-bottom: 8px;
+}
+.sub {
+  color: #a89070; font-size: 14px;
+  margin-bottom: 32px; line-height: 1.6;
+}
+.info-box {
+  background: #fdf8f3;
+  border: 1px solid #e0d0bf;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.info-label {
+  font-size: 11px; color: #c9a961;
+  text-transform: uppercase; letter-spacing: 2px;
+  margin-bottom: 8px; font-weight: 600;
+}
+.info-value {
+  font-size: 16px; color: #5a5a5a;
+  font-weight: 600; word-break: break-all;
+}
+.btn {
+  display: block; width: 100%;
+  padding: 16px; border-radius: 12px; border: none;
+  background: linear-gradient(135deg, #c9a961, #b8956a);
+  color: white; font-size: 16px; font-weight: 700;
+  cursor: pointer; text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 24px;
+  transition: all 0.2s;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(139,111,71,0.3); }
+.footer {
+  margin-top: 20px;
+  font-size: 12px; color: #c0a88a;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+<div class="box">
+  <span class="emoji">🌸</span>
+  <div class="badge">Film Souvenir · Accès confirmé</div>
+  <h1>Merci pour votre achat !</h1>
+  <p class="sub">Votre accès à MémoVie est activé. Conservez bien ces informations pour vous connecter à tout moment.</p>
+
+  <div class="info-box">
+    <div class="info-label">🔗 Lien de l'application</div>
+    <div class="info-value">mourafkamk.github.io/memovie</div>
+  </div>
+
+  <div class="info-box">
+    <div class="info-label">🔑 Mot de passe</div>
+    <div class="info-value">memovie-2025</div>
+  </div>
+
+  <a class="btn" href="https://mourafkamk.github.io/memovie" target="_blank">
+    🌸 Accéder à MémoVie →
+  </a>
+
+  <p class="footer">
+    En cas de problème, contactez-nous via Whop.<br>
+    Film Souvenir © 2025 — Tous droits réservés.
+  </p>
+</div>
+</body>
+</html>
